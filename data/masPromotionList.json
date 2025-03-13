@@ -1,0 +1,75 @@
+[
+  {
+    "promotionCode": "PROMOTION_1",
+    "promotionGroupCode": "PROMOTION_GROUP_1",
+    "promotionGroupCategory": "Coupon",
+    "promotionNameLocal": "ส่วนลด 10 บาท",
+    "amount": 10
+  },
+  {
+    "promotionCode": "PROMOTION_2",
+    "promotionGroupCode": "PROMOTION_GROUP_1",
+    "promotionGroupCategory": "Coupon",
+    "promotionNameLocal": "ส่วนลด 20 บาท",
+    "amount": 20
+  },
+  {
+    "promotionCode": "PROMOTION_3",
+    "promotionGroupCode": "PROMOTION_GROUP_1",
+    "promotionGroupCategory": "Coupon",
+    "promotionNameLocal": "ส่วนลด 30 บาท",
+    "amount": 30
+  },
+  {
+    "promotionCode": "PROMOTION_4",
+    "promotionGroupCode": "PROMOTION_GROUP_2",
+    "promotionGroupCategory": "Coupon",
+    "promotionNameLocal": "ส่วนลด 10%",
+    "amount": 10
+  },
+  {
+    "promotionCode": "PROMOTION_5",
+    "promotionGroupCode": "PROMOTION_GROUP_2",
+    "promotionGroupCategory": "Coupon",
+    "promotionNameLocal": "ส่วนลด 20%",
+    "amount": 20
+  },
+  {
+    "promotionCode": "PROMOTION_6",
+    "promotionGroupCode": "PROMOTION_GROUP_2",
+    "promotionGroupCategory": "Coupon",
+    "promotionNameLocal": "ส่วนลด 30%",
+    "amount": 30
+  },
+  {
+    "promotionCode": "PROMOTION_7",
+    "promotionGroupCode": "PROMOTION_GROUP_3",
+    "promotionGroupCategory": "OnTop",
+    "promotionNameLocal": "ส่วนลดเสื้อแขนยาว 10%",
+    "productGroupCode": "PG_001",
+    "amount": 10
+  },
+  {
+    "promotionCode": "PROMOTION_8",
+    "promotionGroupCode": "PROMOTION_GROUP_3",
+    "promotionGroupCategory": "OnTop",
+    "promotionNameLocal": "ส่วนลดเสื้อแขนยาว 20%",
+    "productGroupCode": "PG_001",
+    "amount": 20
+  },
+  {
+    "promotionCode": "PROMOTION_9",
+    "promotionGroupCode": "PROMOTION_GROUP_3",
+    "promotionGroupCategory": "OnTop",
+    "promotionNameLocal": "ส่วนลดเสื้อแขนยาว 30%",
+    "productGroupCode": "PG_001",
+    "amount": 30
+  },
+  {
+    "promotionCode": "PROMOTION_10",
+    "promotionGroupCode": "PROMOTION_GROUP_1",
+    "promotionGroupCategory": "Coupon",
+    "promotionNameLocal": "ส่วนลด 1000 บาท",
+    "amount": 1000
+  }
+]

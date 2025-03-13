@@ -1,0 +1,27 @@
+[
+  {
+    "promotionGroupCode": "PROMOTION_GROUP_1",
+    "promotionGroupName": "Fixed amount",
+    "promotionGroupCategory": "Coupon"
+  },
+  {
+    "promotionGroupCode": "PROMOTION_GROUP_2",
+    "promotionGroupName": "Percentage discount",
+    "promotionGroupCategory": "Coupon"
+  },
+  {
+    "promotionGroupCode": "PROMOTION_GROUP_3",
+    "promotionGroupName": "Percentage discount by item category",
+    "promotionGroupCategory": "OnTop"
+  },
+  {
+    "promotionGroupCode": "PROMOTION_GROUP_4",
+    "promotionGroupName": "Discount by points",
+    "promotionGroupCategory": "OnTop"
+  },
+  {
+    "promotionGroupCode": "PROMOTION_GROUP_5",
+    "promotionGroupName": "Special campaigns",
+    "promotionGroupCategory": "Seasonal"
+  }
+]

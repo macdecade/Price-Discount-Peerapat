@@ -1,0 +1,58 @@
+[
+  {
+    "productCode": "PD_00001",
+    "productNameLocal": "เสื้อแขนยาวสีแดง",
+    "productGroupCode": "PG_001",
+    "productGroupNameLocal": "เสื้อแขนยาว",
+    "price": 100
+  },
+  {
+    "productCode": "PD_00002",
+    "productNameLocal": "เสื้อแขนยาวสีส้ม",
+    "productGroupCode": "PG_001",
+    "productGroupNameLocal": "เสื้อแขนยาว",
+    "price": 200
+  },
+  {
+    "productCode": "PD_00003",
+    "productNameLocal": "เสื้อแขนสั้นสีส้ม",
+    "productGroupCode": "PG_002",
+    "productGroupNameLocal": "เสื้อแขนสั้น",
+    "price": 210
+  },
+  {
+    "productCode": "PD_00004",
+    "productNameLocal": "เสื้อแขนสั้นสีแดง",
+    "productGroupCode": "PG_002",
+    "productGroupNameLocal": "เสื้อแขนสั้น",
+    "price": 220
+  },
+  {
+    "productCode": "PD_00005",
+    "productNameLocal": "กางเกงขายาวสีส้ม",
+    "productGroupCode": "PG_003",
+    "productGroupNameLocal": "กางเกงขายาว",
+    "price": 230
+  },
+  {
+    "productCode": "PD_00006",
+    "productNameLocal": "กางเกงขายาวสีแดง",
+    "productGroupCode": "PG_003",
+    "productGroupNameLocal": "กางเกงขายาว",
+    "price": 300
+  },
+  {
+    "productCode": "PD_00007",
+    "productNameLocal": "กางเกงขาสั้นสีส้ม",
+    "productGroupCode": "PG_004",
+    "productGroupNameLocal": "กางเกงขาสั้น",
+    "price": 340
+  },
+  {
+    "productCode": "PD_00008",
+    "productNameLocal": "กางเกงขาสั้นสีแดง",
+    "productGroupCode": "PG_004",
+    "productGroupNameLocal": "กางเกงขาสั้น",
+    "price": 350
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "productGroupCode": "PG_001",
+    "productGroupNameLocal": "เสื้อแขนยาว"
+  },
+  {
+    "productGroupCode": "PG_002",
+    "productGroupNameLocal": "เสื้อแขนสั้น"
+  },
+  {
+    "productGroupCode": "PG_003",
+    "productGroupNameLocal": "กางเกงขายาว"
+  },
+  {
+    "productGroupCode": "PG_004",
+    "productGroupNameLocal": "กางเกงขาสั้น"
+  }
+]
