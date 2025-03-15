@@ -8,14 +8,13 @@ import clsxm from "@/app/utils/clsxm";
 import AddCircleIcon from "@mui/icons-material/AddCircle";
 import RemoveCircleIcon from "@mui/icons-material/RemoveCircle";
 import { useAppDispatch } from "@/app/hooks/useAppDispatch";
-import { addToCart } from "@/app/store/slices/productSlice";
+import { addToCart } from "@/app/store/slices/cartSlice";
 
 interface ProductCardProps {
   product: Product;
-  addSelectedProduct: (product: Product, quantity: number) => void;
 }
 
-const ProductCard = ({ product, addSelectedProduct }: ProductCardProps) => {
+const ProductCard = ({ product }: ProductCardProps) => {
   const dispatch = useAppDispatch();
   const [amount, setAmount] = useState<number>(1);
 
@@ -39,6 +38,8 @@ const ProductCard = ({ product, addSelectedProduct }: ProductCardProps) => {
     };
 
     dispatch(addToCart(cartItem)); // ส่งเข้า Redux
+
+    setAmount(1);
   };
 
   return (
@@ -97,10 +98,10 @@ const ProductCard = ({ product, addSelectedProduct }: ProductCardProps) => {
         </div>
 
         <button
-          onClick={() => addSelectedProduct(product, amount)}
-          className="mt-4 bg-secondary text-white px-4 py-2 rounded-md w-full"
+          onClick={handleAddToCart}
+          className="mt-4 bg-secondary text-white px-4 py-2 rounded-md w-full cursor-pointer hover:bg-secondary-light"
         >
-          Add to Cart
+          <p className=" hover:scale-105">Add to Cart</p>
         </button>
       </div>
     </div>

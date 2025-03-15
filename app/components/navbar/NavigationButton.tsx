@@ -5,6 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { NavigationButtonProps } from "../../interface/app_interface";
 import { useAppDispatch } from "../../hooks/useAppDispatch";
+import { removeButtonsAfterSelected } from "@/app/store/slices/appSlice";
 
 const NavigationButton: React.FC = () => {
   const dispatch = useAppDispatch();
@@ -12,7 +13,7 @@ const NavigationButton: React.FC = () => {
 
   // All possible paths (defined inside the component)
   const allSteps: NavigationButtonProps[] = [
-    { name: "สร้างแผนเข้าเยี่ยม", path: "/create-plan", key: "create-plan" },
+    { name: "Cart", path: "/product-cart", key: "product-cart" },
   ];
 
   const [steps, setSteps] = useState<NavigationButtonProps[]>([]);
@@ -95,6 +96,3 @@ const NavigationButton: React.FC = () => {
 };
 
 export default NavigationButton;
-function removeButtonsAfterSelected(key: string): any {
-  throw new Error("Function not implemented.");
-}

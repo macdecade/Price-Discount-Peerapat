@@ -21,8 +21,17 @@ const appSlice = createSlice({
         (button) => button.key !== action.payload
       );
     },
+    removeButtonsAfterSelected: (state, action: PayloadAction<string>) => {
+      const index = state.navigationButton.findIndex(
+        (button) => button.key === action.payload
+      );
+      if (index >= 0) {
+        state.navigationButton = state.navigationButton.slice(0, index + 1);
+      }
+    },
   },
 });
 
-export const {} = appSlice.actions;
+export const { removeButtonsAfterSelected, removeNavigationButton } =
+  appSlice.actions;
 export default appSlice.reducer;

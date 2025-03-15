@@ -24,7 +24,7 @@ export default function Home() {
       <h1 className="text-center text-[36px]">SHOP COLLECTION</h1>
       <div
         className={clsxm(
-          "w-full h-screen grid  gap-4",
+          "w-full h-screen grid gap-4",
           "desktop:grid-cols-4",
           "tablet grid-cols-2",
           "mobile:grid-cols-1"
@@ -33,7 +33,7 @@ export default function Home() {
         {productList?.length > 0
           ? productList?.map((item) => (
               <div className="" key={item.productCode}>
-                <ProductCard product={item} addSelectedProduct={() => {}} />
+                <ProductCard product={item} />
               </div>
             ))
           : Array.from({ length: 12 }).map((_, index) => (

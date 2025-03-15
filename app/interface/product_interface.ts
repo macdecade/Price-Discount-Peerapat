@@ -27,3 +27,13 @@ export interface Discount {
   every?: number;
   discountPerEvery?: number;
 }
+
+export interface DiscountItem {
+  promotionCode: string;
+  promotionGroupCode: string;
+  promotionGroupCategory: string;
+  promotionNameLocal: string;
+  amount: number;
+}
+
+export type DiscountCategory = "Coupon" | "OnTop";
